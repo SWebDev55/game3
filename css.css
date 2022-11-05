@@ -27,7 +27,7 @@
     padding: 0px 5px;
    }
    header .main-box .logo img{
-    width: 80%;
+    width: 30%;
    }
    header .main-box .logo .open-menu{
     display: block;
@@ -75,6 +75,7 @@
    }
    .blog-1 .main-box{
     display: inline-block;
+    width: 100%;
    }
    .blog-1 .main-box .col-span-2 .logo{
     margin: auto;
@@ -83,6 +84,14 @@
    .blog-1 .main-box .col-span-4{
     border: none !important;
     width: 100%;
+   }
+   .blog-1 .main-box .col-span-3 .link{
+    width: 100%;
+    display: inline-block;
+   }
+   .blog-1 .main-box .col-span-3 .link a{
+    width: 50%;
+    float: left;
    }
 
    .title{
@@ -146,7 +155,7 @@
     padding: 0px 5px;
    }
    header .main-box .logo img{
-    width: 80%;
+    width: 25%;
    }
    header .main-box .logo .open-menu{
     display: block;
@@ -194,10 +203,6 @@
    }
    .blog-1 .main-box{
     display: inline-block;
-    width: 50%;
-    float: left;
-   }
-   .blog-1 .main-box .col-span-2{
     width: 100%;
    }
    .blog-1 .main-box .col-span-2 .logo{
@@ -206,13 +211,17 @@
    .blog-1 .main-box .col-span-3,
    .blog-1 .main-box .col-span-4{
     border: none !important;
+    width: 100%;
    }
-   .blog-1 .main-box .col-span-4 h1{
-    font-size: 20px;
+   .blog-1 .main-box .col-span-3 .link{
+    width: 100%;
+    display: inline-block;
    }
-   .blog-1 .main-box .col-span-4 p{
-    font-size: 13px;
+   .blog-1 .main-box .col-span-3 .link a{
+    width: 50%;
+    float: left;
    }
+
 
    .title{
     text-align: center;
